@@ -57,7 +57,7 @@ body {
 
 aside {
     border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    /* border-bottom-right-radius: 25px; */
     background-color: rgb(188, 230, 227);
     width: 37.5%;
     padding: 30px;
@@ -65,14 +65,12 @@ aside {
 
 main {
     display: flex;
-    
-
 }
 
 article {
     background-color: rgb(188, 230, 227);
     border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    /* border-bottom-left-radius: 25px; */
     display: flex;
     flex-direction: column;
     width: 62.5%;
@@ -105,7 +103,22 @@ h4 {
     margin-bottom: 20px;
 }
 
+h5 {
+    font-size: 20px;
+    font-weight: bold;
+}
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(188, 230, 227);
+    width: 800px;
+}
+
+a {
+    text-decoration: none;
+}
 
 .code2 {
     font-weight: 600;
@@ -154,6 +167,22 @@ h4 {
 }
 
 .languages {
+
     margin-bottom: 25px;
 }
 
+.github {
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+}
+
+footer div {
+    margin: 0 20px 20px 20px;
+}
+
+.git_link {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
