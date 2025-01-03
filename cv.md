@@ -40,7 +40,7 @@ async def csgo2_check_updates():
 ```
 
 ## Work Experience
-- **QA Engineer** (6 months)
+- **QA Engineer** (11 months)
 
 ## Education
 - **MGGEU Volgograd** - Applied Informatics
