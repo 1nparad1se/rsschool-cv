@@ -1,7 +1,44 @@
-.block {
-    height: 100px;
-    width: 100px;
-    margin: 10px;
-    background-color: chartreuse;
-    text-align: center;
+@import url(normalize.css);
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.topMain {
+    width: 595px;
+    height: 842px;
+    background-color: rgb(77, 77, 77);
+    
+}
+header {
+    border-top: 4px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.name_position {
+    width: 197px;
+    height: 60px;
+    margin: 45px 0 0 45px;
+}
+.name {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.position {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.image {
+    width: 72px;
+    height: 72px;
+    margin: 35px 115px 0 0;
+}
+.main1 {
+}
+.main2 {
 }
