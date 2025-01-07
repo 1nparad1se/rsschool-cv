@@ -5,17 +5,23 @@ body {
     display: flex;
     justify-content: center;
 }
-
+header {
+    border-top: 4px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+main {
+    display: flex;
+}
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
 .topMain {
     width: 595px;
     height: 842px;
     background-color: rgb(77, 77, 77);
     
-}
-header {
-    border-top: 4px solid black;
-    display: flex;
-    justify-content: space-between;
 }
 .name_position {
     width: 197px;
@@ -38,7 +44,16 @@ header {
     height: 72px;
     margin: 35px 115px 0 0;
 }
+
 .main1 {
+    padding: 20px 10px 10px 50px;
+    width: 66%;
+    font-size: 12px;
+    line-height: 20px;
 }
 .main2 {
+    padding: 20px;
+    width: 30%;
+    font-size: 12px;
+    line-height: 20px;
 }
