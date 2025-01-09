@@ -10,7 +10,7 @@ body {
 
 
 header {
-    border-top: 4px solid #2B4E64;
+    border-top: 4px solid black;
     display: flex;
     justify-content: space-between;
 }
@@ -39,7 +39,10 @@ ul {
     background-color: #2E6583;
 }
 
+.topMain:hover {
+    @import url();
 
+}
 
 
 header, footer {
@@ -56,7 +59,7 @@ header, footer {
 .image {
     width: 72px;
     height: 72px;
-    border: 5px solid #2B4E64;
+    border: 5px solid #2E6583;
     border-radius: 50px;
     background-color: #A2BFC7;
 }
